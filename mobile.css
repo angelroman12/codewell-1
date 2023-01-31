@@ -1,0 +1,18 @@
+@media (max-width: 44em) {
+  .nav-bar {
+    display: none;
+  }
+  .nav-buttons {
+    display: none;
+  }
+  .mobile-btns {
+    display: block;
+  }
+  .menu-btn {
+    display: block;
+  }
+
+  .img-box {
+    display: none;
+  }
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="Icon" href="./Assets/Logo.svg" />
+    <script defer src="./script.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Outfit:wght@400;700&family=Poppins:wght@400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./mobile.css" />
+    <title>Navbar Challenge</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img src="./Assets/Logo.svg" alt="website logo" class="logo"
+      /></a>
+      <nav class="nav-bar">
+        <ul class="list">
+          <li class="list-item active">Products</li>
+          <li class="list-item">Challenges</li>
+          <li class="list-item">Resources</li>
+          <li class="list-item">Other Links</li>
+        </ul>
+        <ul class="products-list display-none">
+          <li>
+            <img src="./Assets/Spense_Icon.svg" alt="Spense Icon" />
+            <p class="product-title">Spense</p>
+            <p class="product-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+            </p>
+          </li>
+          <li>
+            <img src="./Assets/Fiber_Icon.svg" alt="Spense Icon" />
+            <p class="product-title">Fiber landing pange</p>
+            <p class="product-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+            </p>
+          </li>
+          <li>
+            <img src="./Assets/Gradie_Icon.svg" alt="Spense Icon" />
+            <p class="product-title">Gradie sign up page</p>
+            <p class="product-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+            </p>
+          </li>
+        </ul>
+      </nav>
+      <div class="nav-buttons">
+        <button class="btn">Sign in</button>
+        <button class="btn btn-primary">Try for free</button>
+      </div>
+
+      <div class="mobile-btns">
+        <button class="display-none">
+          <img src="./Assets/Menu.svg" alt="menu-btn" />
+        </button>
+        <button class="display-none">
+          <img src="./Assets/Close.svg" alt="close-btn" />
+        </button>
+      </div>
+    </header>
+    <section class="hero-section">
+      <div class="container grid grid--2-col">
+        <div class="text-box">
+          <h2 class="heading">
+            Ondeck is your remote
+            <span class="highlight-text"> conference calling tool</span>
+          </h2>
+          <p class="info-text">
+            Ondeck is a service that allows you to create beautiful, online, and
+            encrypted video calls for you and your team
+          </p>
+          <button class="btn btn-primary margin-bottom-sm">Try for free</button>
+          <div class="review-logo">
+            <p class="review-logo-text">5.0 Rating based on reviews from:</p>
+            <img
+              src="./Assets/Capterra Logo.svg"
+              alt="Capterra logo"
+              class="review-logo-img" />
+            <img
+              src="./Assets/AlternativeTo Logo.svg"
+              alt="Alternative logo"
+              class="review-logo-img" />
+          </div>
+        </div>
+        <div class="img-box">
+          <img src="./Assets/Hero Image.png" alt="Girl on conference call" />
+        </div>
+      </div>
+    </section>
+    <section class="feature-section">
+      <div class="container">
+        <p class="feature-title">
+          Trusted by 3+ million people at companies like
+        </p>
+        <div class="grid grid--4-cols">
+          <img src="./Assets/Walmart Logo.svg" alt="Walmart Logo" />
+          <img src="./Assets/Netflix Logo.svg" alt="Netflix Logo" />
+          <img src="./Assets/Spotify Logo.svg" alt="Spotify Logo" />
+          <img src="./Assets/Shopify Logo.svg" alt="Shopify Logo" />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

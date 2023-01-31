@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1rem;
+  list-style: 1;
+  font-weight: 400;
+  background-color: bisque;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  width: 120rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  justify-items: center;
+}
+
+.grid--2-col {
+  grid-template-columns: 60% 40%;
+}
+
+.grid--4-cols {
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.margin-bottom-sm {
+  margin-bottom: 2rem !important;
+}
+
+.header {
+  padding: 2rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.list {
+  font-size: 1.8rem;
+  list-style: none;
+  color: #999;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.btn {
+  font-size: 1.8rem;
+  border: none;
+  background-color: transparent;
+  color: #888;
+  padding: 1.6rem 3.2rem;
+  cursor: pointer;
+}
+
+.btn-primary {
+  font-weight: 700;
+  color: #fff;
+  background-color: #087f5b;
+  border-radius: 9px;
+}
+
+.text-box {
+  padding: 5rem 1.2rem;
+}
+
+.img-box {
+  /* padding: 2rem 0; */
+  display: flex;
+  justify-content: flex-end;
+}
+.img-box img {
+  justify-items: end;
+  width: 80%;
+}
+
+.hero-section {
+  padding: 9.6rem 0;
+}
+
+.heading {
+  font-size: 4.8rem;
+  line-height: 1.6;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.highlight-text {
+  color: #e67700;
+}
+
+.info-text {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+}
+.review-logo {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.review-logo-text {
+  font-size: 1.4rem;
+}
+
+.feature-section {
+  padding: 9.6rem 0;
+}
+
+.feature-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  color: #888;
+}
+
+.products-list {
+  list-style: none;
+  width: 22rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 11px;
+  padding: 1rem;
+
+  position: absolute;
+}
+
+.products-list::before {
+  content: "";
+  position: absolute;
+  top: 3%;
+  right: 60%;
+
+  border-radius: 2px;
+  background-color: #fff;
+
+  padding: 0.8rem 2rem;
+  transform: rotate(45deg);
+}
+
+.display-none {
+  display: none;
+}
+
+.product-title {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.product-text {
+  font-size: 1.4;
+  color: #888;
+}
